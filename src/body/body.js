@@ -11,7 +11,7 @@ const body = () => {
     height: '80vh'
     }}>
         <div className='row'>
-            <div className='col-md-5'>
+            <div className='col-xl-4 col-md-5'>
                 <div className=''>
                     <h2  className='discover animate__animated animate__fadeInUpBig animate__slower	3s' >
                         Discover, search and

@@ -4,7 +4,7 @@ const footer = () => {
   return (
     <div className='footer container-fluid reveal animate__animated animate__fadeInUpBig animate__slower	3s'>
         <footer className="row py-5 my-5 copy">
-            <div className="col-md-4 ">
+            <div className="foota col-md-4 ">
             <a href="/" className="d-flex align-items-center mb-3 link-dark text-decoration-none">
             
             </a>
