@@ -8,14 +8,23 @@ import Second from "../src/Second/second";
 import Footer from "../src/footer/footer"
 import Buttom from "../src/buttom/buttom"
 
+
+
 function App() {
+
+  const divStyle= {
+    overflowX: 'hidden',
+    
+  };
+  
   return (
-    <div style={{ overflowX:"hidden !important" }} className="col-xl-12 " >
+  
+    <div style={divStyle} >
      <NavBar/>
      <Body/>
     <Middle/>
     <Part/>
-    <Play/>
+    <Play className="mb-8"/>
     <Second/>
     <Footer/>
     <Buttom/>

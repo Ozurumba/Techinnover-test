@@ -20,12 +20,12 @@ const body = () => {
                 </div>
                 <div className='mobile-try-btn'>
                    <button type="button" className="try trys">Try for free</button> 
-                </div>
-                <div>
-                <img  className="google googles " src={Google} alt=""/>
+                <div className="downloadapp">
+                    <img  className="google googles " src={Google} alt=""/>
                     <img  className="apple  apples"  src={Apple} alt="" />
-                    
                 </div>
+                </div>
+                
            </div>
         </div>
 
